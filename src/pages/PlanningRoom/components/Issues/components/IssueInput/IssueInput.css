@@ -1,0 +1,28 @@
+.form-control.issue-input {
+  background-color: var(--issue-input-bg-color);
+  height: 10rem;
+  resize: none;
+}
+
+.btn.btn-save--issue {
+  background-color: var(--primary-color);
+  color: white;
+  border: 1px solid var(--primary-color);
+  border-radius: 0.5rem;
+  font-size: var(--font-size-medium);
+  font-weight: var(--font-weight-medium);
+}
+
+.btn.btn-save--issue:hover {
+  background-color: var(--issue-btn-voting-bg-color-hover);
+  border-color: var(--issue-btn-voting-bg-color-hover);
+}
+
+.btn-cancel {
+  background-color: white;
+  color: var(--primary-color);
+  border: 1.5px solid var(--issue-input-bg-color);
+  border-radius: 0.5rem;
+  font-size: var(--font-size-small);
+  font-weight: var(--font-weight-medium);
+}

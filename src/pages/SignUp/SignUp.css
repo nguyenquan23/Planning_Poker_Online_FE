@@ -1,0 +1,99 @@
+.btn-signup {
+  color: var(--primary-color);
+  border: none;
+  font-size: var(--font-size-large);
+  font-weight: var(--font-weight-medium);
+}
+
+.btn-signup:hover {
+  color: var(--secondary-color);
+  border: none;
+  font-weight: var(--font-weight-large);
+}
+
+.modal-title {
+  font-size: 2.5rem;
+  font-weight: var(--font-weight-large);
+}
+
+.form-label {
+  margin-top: 1rem;
+  font-size: var(--font-size-large);
+}
+
+.modal-content {
+  padding: 2rem;
+}
+
+.form-control {
+  height: 3.5rem;
+  font-size: var(--font-size-medium);
+}
+
+.btn-close {
+  color: var(--primary-color);
+  font-size: var(--font-size-medium);
+}
+
+.form-control.input-signup {
+  font-size: var(--font-size-medium);
+}
+
+.modal-backdrop.show {
+  --bs-backdrop-bg: var(--text-color);
+  --bs-backdrop-opacity: 0.8;
+}
+
+.form-control.is-invalid,
+.was-validated .form-control:invalid {
+  --bs-form-invalid-border-color: var(--form-border-color);
+  border-color: --bs-form-invalid-border-color;
+}
+
+.form-control:focus {
+  border: 0;
+}
+
+.alert-success {
+  font-size: var(--font-size-medium);
+}
+
+.alert-danger {
+  font-size: var(--font-size-medium);
+}
+
+.btn-alert-close {
+  background-color: white;
+  border: 1px solid white;
+  font-size: var(--font-size-medium);
+  color: var(--primary-color);
+}
+
+.Toastify__toast--success .Toastify__toast-body {
+  font-size: var(--font-size-medium);
+  color: var(--success-color);
+  font-weight: var(--font-weight-medium);
+}
+
+.Toastify__toast--error .Toastify__toast-body {
+  font-size: var(--font-size-medium);
+  color: var(--error-color);
+  font-weight: var(--font-weight-medium);
+}
+
+.btn.btn-primary.btn-signup {
+  background-color: var(--primary-color);
+  color: white;
+  height: 4rem;
+  font-weight: var(--font-weight-medium);
+  border: 0;
+}
+
+.btn.btn-primary.btn-signup:hover {
+  background-color: var(--secondary-color);
+}
+
+.bottom-option--login span,
+.bottom-option--login .btn-login {
+  font-size: var(--font-size-small);
+}

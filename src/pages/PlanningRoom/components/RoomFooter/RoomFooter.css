@@ -1,0 +1,110 @@
+.room__footer {
+  height: 18rem;
+}
+
+.card-list-section {
+  height: 8rem;
+}
+
+.choose-your-card {
+  font-size: var(--font-size-medium);
+}
+
+.icon-hand-down {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 0.5rem;
+}
+
+.card-lists-container {
+  position: relative;
+}
+
+.card-lists {
+  list-style: none;
+  position: absolute;
+  top: 0;
+  left: 30%;
+  right: 30%;
+  gap: 3rem;
+}
+
+.btn.btn-outline-primary.card-button {
+  width: 3.8rem;
+  height: 6.5rem;
+  background-color: white;
+  border: 1.5px solid var(--primary-color);
+  color: var(--primary-color);
+  font-size: var(--font-size-small);
+  font-weight: var(--font-weight-large);
+  border-radius: 0.8rem;
+  transition: all 0.1s linear;
+}
+
+.btn.btn-outline-primary.card-button:hover {
+  background-color: var(--background-color);
+  transform: translateY(-0.3rem);
+}
+
+.btn.btn-outline-primary.card-button--picked {
+  width: 3.8rem;
+  height: 6.5rem;
+  background-color: var(--primary-color);
+  border: 1.5px solid var(--primary-color);
+  color: white;
+  font-size: var(--font-size-small);
+  font-weight: var(--font-weight-large);
+  border-radius: 0.8rem;
+  transform: translateY(-0.7rem);
+}
+
+.result-average-container {
+  height: 10rem;
+}
+
+.average-label {
+  font-size: var(--font-size-medium);
+  color: var(--label-color);
+}
+
+.result-card {
+  width: 5.5rem;
+  height: 9rem;
+  border: 2px solid black;
+  border-radius: 0.6rem;
+  text-align: center;
+  padding: 2.5rem 0;
+  font-size: var(--font-size-large);
+  font-weight: var(--font-weight-medium);
+}
+
+.vote-count {
+  font-size: var(--font-size-medium);
+}
+
+.coffee-time-label {
+  font-size: var(--font-size-medium);
+}
+
+.coffee-time i {
+  font-size: var(--font-size-modal-title);
+}
+
+.activated-spec-mode-container {
+  font-size: var(--font-size-medium);
+  color: var(--text-color);
+}
+
+.activated-spec-mode-container .btn-deactivate-spec-mode {
+  color: var(--primary-color);
+  font-weight: var(--font-weight-large);
+}
+
+.activated-spec-mode-container i {
+  font-size: var(--font-size-extra-small);
+  color: var(--dropdown-icon-color);
+}
+
+.activated-spec-mode-container .btn-deactivate-spec-mode:hover {
+  color: var(--secondary-color);
+}

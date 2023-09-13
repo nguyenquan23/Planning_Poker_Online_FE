@@ -1,0 +1,14 @@
+.btn-start {
+  z-index: calc(var(--firework-z-index) + 1);
+  background-color: var(--btn-start-bg-color);
+  border: 0 solid var(--secondary-color);
+  border-radius: 1rem;
+  color: white;
+  height: 5rem;
+  padding: 1rem 2rem;
+  font-weight: var(--font-weight-medium);
+}
+
+.btn-start:hover {
+  background-color: black;
+}

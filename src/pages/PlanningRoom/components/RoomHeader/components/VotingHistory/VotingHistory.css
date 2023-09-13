@@ -1,0 +1,21 @@
+.history-modal {
+  --bs-modal-width: 90vw;
+  max-height: 10rem;
+}
+
+.history-modal__body-header {
+  font-size: var(--font-size-medium);
+}
+
+.history-modal__body-table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.history-table-body tr {
+  font-size: var(--font-size-medium);
+}
+
+tbody tr:hover td, tbody tr:hover th{
+  background-color: var(--dropdown-background-color)
+}

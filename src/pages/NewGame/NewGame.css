@@ -1,0 +1,69 @@
+.new-game {
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+.site-logo {
+  width: 3rem;
+  height: 3rem;
+}
+
+.new-game__header {
+  position: relative;
+}
+
+.title-new-game {
+  display: inline-block;
+  font-size: var(--font-size-large);
+  font-weight: var(--font-weight-large);
+  color: var(--text-color);
+  position: absolute;
+  bottom: 50%;
+  left: 4rem;
+  transform: translateY(50%);
+}
+
+.new-game__main {
+  width: 50rem;
+  margin: 8rem auto 0 auto;
+}
+
+.subtitle {
+  display: block;
+  text-align: center;
+  font-size: var(--font-size-large);
+  font-weight: var(--font-weight-small);
+  color: var(--text-color);
+}
+
+.form-new-game {
+  margin-top: 3rem;
+}
+
+.label-game-name,
+.input-game-name {
+  font-size: var(--font-size-medium);
+}
+
+.btn.btn-primary.btn-create-game {
+  background-color: var(--primary-color);
+  height: 4rem;
+  font-size: var(--font-size-medium);
+  font-weight: var(--font-weight-medium);
+  border: 0;
+  margin-top: 3rem;
+}
+
+.btn.btn-primary.btn-create-game:hover {
+  background-color: var(--secondary-color);
+}
+
+@media screen and (max-width: 767px) {
+  .new-game__main {
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

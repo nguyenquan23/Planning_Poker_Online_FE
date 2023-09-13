@@ -1,0 +1,60 @@
+.modal-change-profile .modal-content {
+  --bs-modal-border-radius: 1.3rem;
+  padding: 1.5rem;
+}
+
+.modal-change-profile .modal-title {
+  font-size: var(--font-size-modal-title);
+  font-weight: var(--font-weight-large);
+}
+
+.form-change-profile {
+  margin: 2rem 0;
+}
+
+#input-file {
+  display: none;
+}
+
+.photo {
+  background-color: transparent;
+  width: 8rem;
+  height: 8rem;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 2rem;
+}
+
+.label-upload-photo {
+  cursor: pointer;
+  color: var(--primary-color);
+  font-size: var(--font-size-large);
+  font-weight: var(--font-weight-medium);
+}
+
+.label-upload-photo:hover {
+  color: var(--secondary-color);
+}
+
+.form-floating .form-control.input-display-name {
+  height: 5.5rem;
+  font-size: var(--font-size-medium);
+  padding-top: 2rem;
+}
+
+.form-floating .label-display-name {
+  font-size: var(--font-size-small);
+  font-weight: var(--font-weight-small);
+}
+
+.btn.btn-save {
+  background-color: var(--primary-color);
+  height: 3.5rem;
+  font-size: var(--font-size-large);
+  font-weight: var(--font-weight-medium);
+  border: 0;
+}
+
+.btn.btn-save:hover {
+  background-color: var(--secondary-color);
+}

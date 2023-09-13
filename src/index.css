@@ -1,0 +1,71 @@
+:root {
+  --primary-color: #3993ff;
+  --secondary-color: #74b3ff;
+  --background-color: #ebf4ff;
+  --glow-color: #1a7bf2;
+  --room-background-color: #f9f9f9;
+  --input-border-color-focus: rgba(56, 146, 255, 0.75);
+  --dropdown-menu-box-shadow-color: rgba(200, 200, 200, 0.576);
+  --btn-start-bg-color: #48545d;
+  --btn-background-color-hover: #c4dfff;
+  --dropdown-background-color: #f2f2f2;
+  --dropdown-icon-color: #a0a0a0;
+  --table-background: #d7e9ff;
+  --card-background: #e8e9ea;
+  --text-color: #1a2935;
+  --label-color: #a8aeb2;
+  --form-border-color: #ccc;
+  --button-hover-color: rgba(204, 204, 204, 0.6);
+  --success-color: #07bc0c;
+  --error-color: #e74c3c;
+  --font-size-extra-large: 3.5rem;
+  --font-size-large: 2rem;
+  --font-size-medium: 1.6rem;
+  --font-size-small: 1.4rem;
+  --font-size-extra-small: 1.2rem;
+  --font-size-modal-title: 2.5rem;
+  --font-size-error-title: 15rem;
+  --font-size-error-item: 14rem;
+  --font-size-error-subtitle: 6rem;
+  --font-size-background-50: 50vw;
+  --font-weight-extreme-large: 1000;
+  --font-weight-large: 700;
+  --font-weight-medium: 600;
+  --font-weight-small: 500;
+  --player-card-width: 4.8rem;
+  --player-card-height: 7.5rem;
+  --offcanvas-width: 30rem;
+  --firework-z-index: 0;
+  --spec-color: #a8aeb2;
+  --disabled-btn-color: #d1d4d7;
+  /* Issue */
+  --menu-option-hover-bg-color: #ebf4ff;
+  --menu-option-focus-bg-color: rgb(183, 183, 252);
+  --issue-btn-vote-bg-color-hover: #d1d4d7;
+  --issue-btn-voting-bg-color-hover: #74b3ff;
+  --btn-vote-border-color: #f2f2f2;
+  --issue-input-bg-color: #e5e5e5;
+  --issue-report-color: rgb(162, 162, 162);
+  --issue-block-bg-color: #f9f9f9;
+  --issue-block-bg-color-hover: #f1f1f1;
+  --seletecd-issue-block-bg-color: #ebf4ff;
+  --seletecd-issue-block-bg-color-hover: #d7e9ff;
+  --btn-delete-issue-ok-hover: #ff779b;
+  --btn-delete-issue-ok: #ff3d71;
+  --issue-block-box-shadow-color: rgba(99, 99, 99, 0.2);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  width: 100%;
+}

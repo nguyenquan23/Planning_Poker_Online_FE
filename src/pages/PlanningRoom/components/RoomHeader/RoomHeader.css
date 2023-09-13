@@ -1,0 +1,108 @@
+.room__header {
+  z-index: calc(1 + var(--firework-z-index));
+  height: 9rem;
+}
+
+.site-logo {
+  width: 3rem;
+  height: 3rem;
+}
+
+.dropdown.dropdown-container {
+  display: inline-block;
+  margin-left: 0.8rem;
+}
+
+.voting-issue-wrapper {
+  font-size: var(--font-size-small);
+  margin-left: 1.75rem;
+}
+
+.voting-issue-label {
+  color: var(--label-color);
+}
+
+.voting-issue-name {
+  display: inline-block;
+  color: var(--text-color);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 7rem;
+}
+
+.dropdown.dropdown-container:hover {
+  background-color: var(--dropdown-background-color);
+  border-radius: 0.8rem;
+}
+
+.btn.btn-primary.btn-dropdown {
+  background-color: transparent;
+  border-color: transparent;
+  color: var(--text-color);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-medium);
+}
+
+.btn.btn-primary.btn-dropdown:hover {
+  background-color: transparent;
+  border: 1px solid transparent;
+  color: var(--text-color);
+}
+
+.btn.btn-primary.btn-dropdown i {
+  color: var(--text-color);
+  font-size: var(--font-size-extra-small);
+  margin-left: 0.3rem;
+}
+
+.dropdown-item.item {
+  background-color: transparent;
+  font-size: var(--font-size-small);
+  padding: 0.7rem 1rem;
+}
+
+.dropdown-item.item:hover {
+  background-color: var(--background-color);
+}
+
+.dropdown-item i {
+  color: var(--dropdown-icon-color);
+  margin-right: 0.9rem;
+}
+
+.dropdown-menu.show {
+  --bs-dropdown-link-active-color: var(--text-color);
+  --bs-dropdown-link-active-bg: var(--dropdown-background-color);
+  box-shadow: 1px 2px 6px 0px var(--dropdown-menu-box-shadow-color);
+}
+
+.right-side-header {
+  gap: 3rem;
+}
+
+.btn.btn-primary.btn-dropdown.btn-user-dropdown {
+  font-size: var(--font-size-medium);
+}
+
+.btn.btn-primary.btn-dropdown.btn-user-dropdown img {
+  width: 3.5rem;
+  height: 3.5rem;
+  object-fit: cover;
+  background-color: transparent;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.btn.btn-outline-primary.option-button {
+  background-color: white;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  font-size: var(--font-size-medium);
+  font-weight: var(--font-weight-medium);
+  border-radius: 0.6rem;
+}
+
+.btn.btn-outline-primary.option-button:hover {
+  background-color: var(--background-color);
+}

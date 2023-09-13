@@ -1,0 +1,45 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:prettier/recommended",
+    "airbnb",
+    "prettier"
+  ],
+  "overrides": [],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": ["react", "prettier"],
+  "rules": {
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "import/no-cycle": "off",
+    "no-restricted-exports": "off",
+    "react/no-array-index-key": "off",
+    "react/forbid-prop-types": "off",
+    "no-param-reassign": "off",
+    "react/jsx-props-no-spreading": "off",
+    "func-names": "off",
+    "quotes": ["error", "double"],
+    "semi": ["error", "never"],
+    "prettier/prettier": "error",
+    "import/no-extraneous-dependencies": "off",
+    "react/prop-types": "off",
+    "no-underscore-dangle": "off",
+    "react/jsx-no-constructed-context-values": "off",
+    "import/prefer-default-export": "off",
+    "no-use-before-define": "off",
+    "react/self-closing-comp": "off",
+    "jsx-a11y/label-has-associated-control": "off",
+    "jsx-a11y/label-has-for": "off",
+    "consistent-return": "off"
+  }
+}

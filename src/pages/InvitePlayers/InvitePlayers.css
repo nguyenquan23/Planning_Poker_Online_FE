@@ -1,0 +1,29 @@
+.modal-invite-players .modal-content {
+  --bs-modal-border-radius: 1.3rem;
+  padding: 1.2rem;
+}
+
+.modal-invite-players .modal-title {
+  font-size: var(--font-size-modal-title);
+  font-weight: var(--font-weight-large);
+}
+
+.label-game-url {
+  font-size: var(--font-size-small);
+}
+
+.input-game-url {
+  font-size: var(--font-size-medium);
+}
+
+.btn.btn-copy-link {
+  background-color: var(--primary-color);
+  height: 3.5rem;
+  font-size: var(--font-size-medium);
+  font-weight: var(--font-weight-medium);
+  border: 0;
+}
+
+.btn.btn-copy-link:hover {
+  background-color: var(--secondary-color);
+}

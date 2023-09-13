@@ -1,0 +1,13 @@
+.reveal-btn {
+  background-color: var(--primary-color);
+  border: 0 solid var(--secondary-color);
+  border-radius: 1rem;
+  color: white;
+  height: 4.5rem;
+  width: 15rem;
+  font-weight: var(--font-weight-medium);
+}
+
+.reveal-btn:hover {
+  background-color: var(--secondary-color);
+}

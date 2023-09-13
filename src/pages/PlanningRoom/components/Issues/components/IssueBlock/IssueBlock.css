@@ -1,0 +1,156 @@
+.issue-block {
+  background: var(--issue-block-bg-color);
+  box-shadow: var(--issue-block-box-shadow-color) 0px 2px 8px 0px;
+}
+
+.issue-block:hover {
+  background-color: var(--issue-block-bg-color-hover);
+}
+
+.issue-block.selected-issue-block {
+  background-color: var(--seletecd-issue-block-bg-color);
+}
+
+.issue-block.selected-issue-block:hover {
+  background-color: var(--seletecd-issue-block-bg-color-hover);
+}
+
+.card-text {
+  font-size: var(--font-size-small);
+  font-weight: var(--font-weight-extra-small);
+}
+
+.btn.btn-vote {
+  height: 3rem;
+  color: black;
+  font-weight: var(--font-weight-medium);
+  border: 0;
+  border-radius: 0.6rem;
+  font-size: var(--font-size-small);
+  background-color: var(--card-background);
+}
+
+.btn.btn-voting {
+  height: 3rem;
+  font-size: var(--font-size-small);
+  background-color: var(--primary-color);
+  font-size: var(--font-size-small);
+  color: white;
+  font-weight: var(--font-weight-medium);
+  border: 0px solid transparent;
+}
+
+.btn.btn-vote:hover {
+  background-color: var(--issue-btn-vote-bg-color-hover);
+}
+
+.btn.btn-voting:hover {
+  background-color: var(--issue-btn-voting-bg-color-hover);
+}
+
+.trash-icon {
+  font-size: var(--font-size-small);
+}
+
+.edit-icon {
+  font-size: var(--font-size-small);
+  margin-right: 1rem;
+}
+
+.option-text {
+  font-size: var(--font-size-small);
+  font-weight: var(--font-weight-extra-small);
+}
+
+.menu {
+  overflow: hidden;
+}
+
+.menu-option {
+  padding: 0.5rem 1rem;
+}
+
+.menu-option:hover {
+  background-color: var(--menu-option-hover-bg-color);
+}
+
+.btn.btn-secondary.dot-menu {
+  background-color: transparent;
+  border: 0;
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+}
+
+.btn.btn-secondary.dot-menu.voting:hover {
+  background-color: var(--seletecd-issue-block-bg-color);
+}
+
+.btn.btn-secondary.dot-menu:hover {
+  background-color: var(--issue-block-bg-color);
+}
+
+.btn.btn-secondary.dot-menu i {
+  color: black;
+  font-size: var(--font-size-medium);
+}
+
+.form-control.issue-edit {
+  background-color: var(--issue-edit-bg-color);
+  height: 7rem;
+  resize: none;
+}
+
+.story-point {
+  height: 3rem;
+  width: 3rem;
+  background: var(--card-background);
+  font-size: var(--font-size-small);
+  font-weight: var(--font-weight-medium);
+  border-radius: 15%;
+  margin-right: 1rem;
+}
+
+.story-point.selected-issue-block {
+  background-color: white;
+}
+
+.btn-delete-issue--ok {
+  font-size: var(--font-size-medium);
+  font-weight: var(--font-weight-medium);
+  background-color: var(--btn-delete-issue-ok);
+  border: 0.2rem solid var(--btn-delete-issue-ok);
+  border-radius: 0.6rem;
+}
+
+.btn-delete-issue--ok:hover {
+  background-color: var(--btn-delete-issue-ok-hover);
+  border: 0.2rem solid var(--btn-delete-issue-ok-hover);
+}
+
+.btn-delete-issue--cancel {
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-medium);
+  background-color: white;
+  color: var(--primary-color);
+  border: 0.2rem solid var(--issue-block-bg-color-hover);
+  border-radius: 0.6rem;
+}
+
+.btn-delete-issue--cancel:hover {
+  background-color: var(--seletecd-issue-block-bg-color-hover);
+  color: var(--primary-color);
+  border: 0.2rem solid var(--card-background);
+}
+
+.issue-block-header {
+  height: 3rem;
+}
+
+.modal-edit .modal-title {
+  font-size: var(--font-size-modal-title);
+}
+
+.modal-delete .modal-title {
+  font-size: var(--font-size-large);
+}

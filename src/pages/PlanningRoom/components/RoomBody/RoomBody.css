@@ -1,0 +1,179 @@
+.table-module-container {
+  grid-template-areas:
+    "left top right"
+    "left center right"
+    "left bottom right";
+  grid-template-columns: 10.4rem 1fr 10.4rem;
+  width: auto;
+  margin: 0 auto;
+  min-height: 20rem;
+}
+
+.table-module-top {
+  grid-area: top;
+  height: 13rem;
+}
+
+.table-module-left {
+  grid-area: left;
+}
+
+.table-module-right {
+  grid-area: right;
+}
+
+.table-module-bottom {
+  grid-area: bottom;
+  height: 14.2rem;
+}
+
+.table-module-center {
+  grid-area: center;
+  height: 18rem;
+  min-width: 40rem;
+  background-color: var(--table-background);
+  border: 0 solid var(--secondary-color);
+  border-radius: 5rem;
+  font-size: var(--font-size-large);
+}
+
+.table-module-center.voting {
+  grid-area: center;
+  height: 18rem;
+  min-width: 40rem;
+  background-color: var(--table-background);
+  border: 0 solid var(--secondary-color);
+  border-radius: 5rem;
+  font-size: var(--font-size-large);
+  box-shadow: 0px 0px 2rem var(--secondary-color);
+}
+
+.player-card-empty {
+  background: var(--card-background);
+  width: var(--player-card-width);
+  height: var(--player-card-height);
+  margin: 1rem 0 0 0;
+  border-radius: 0.8rem;
+}
+
+.player-card-empty.player-card-voting {
+  background: linear-gradient(
+      45deg,
+      var(--primary-color) 12%,
+      transparent 0,
+      transparent 88%,
+      var(--primary-color) 0
+    ),
+    linear-gradient(
+      135deg,
+      transparent 37%,
+      var(--glow-color) 0,
+      var(--glow-color) 63%,
+      transparent 0
+    ),
+    linear-gradient(
+      45deg,
+      transparent 37%,
+      var(--primary-color) 0,
+      var(--primary-color) 63%,
+      transparent 0
+    ),
+    var(--secondary-color);
+  background-size: 1.7rem 1.7rem;
+  width: var(--player-card-width);
+  height: var(--player-card-height);
+  margin: 1rem 0 0 0;
+  border-radius: 0.8rem;
+}
+
+.player-card-empty.player-card-revealed {
+  width: var(--player-card-width);
+  height: var(--player-card-height);
+  margin: 1rem 0 0 0;
+  background-color: white;
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  font-size: var(--font-size-medium);
+  font-weight: var(--font-weight-large);
+  border-radius: 0.8rem;
+}
+
+.player-card-spec {
+  background: var(--card-background);
+  width: var(--player-card-width);
+  height: var(--player-card-height);
+  margin: 1rem 0 0 0;
+  border-radius: 0.8rem;
+  border: 0.2rem dashed var(--spec-color);
+  font-size: var(--font-size-large);
+  color: var(--spec-color);
+}
+
+.player-name-container {
+  font-size: var(--font-size-medium);
+  font-weight: var(--font-weight-medium);
+  margin: 0.5rem 0 0 0;
+}
+
+.player-name-text {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 7rem;
+}
+
+.btn-timer {
+  position: relative;
+  width: 5rem;
+  height: 5rem;
+  border: 0;
+  border-radius: 50%;
+  background-color: var(--background-color);
+  transition: all 0.09s linear;
+}
+
+.btn-timer:hover {
+  background-color: var(--btn-background-color-hover);
+}
+
+.btn-timer img {
+  width: 2.2rem;
+  height: 2.2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form-control.input-minutes {
+  font-size: var(--font-size-medium);
+}
+
+.btn.btn-start-timer {
+  background-color: var(--primary-color);
+  color: white;
+  border: 0;
+  font-size: var(--font-size-small);
+  font-weight: var(--font-weight-medium);
+}
+
+.btn.btn-start-timer i {
+  color: white;
+  font-size: var(--font-size-extra-small);
+}
+
+.btn.btn-start-timer:hover {
+  background-color: var(--secondary-color);
+}
+
+.alert.alert-info {
+  background-color: var(--background-color);
+  border: 0;
+  font-size: var(--font-size-small);
+  font-weight: var(--font-weight-medium);
+  color: var(--primary-color);
+}
+
+.dropdown-menu.dropdown-timer {
+  width: 20rem;
+}

@@ -1,0 +1,50 @@
+.top-layer {
+  top: 45%;
+  transform: translateY(-50%);
+  user-select: none;
+}
+
+.notfound-404 {
+  font-size: var(--font-size-error-title);
+  font-weight: var(--font-weight-extreme-large);
+  color: var(--error-color);
+  opacity: 90%;
+}
+
+.notfound-404 i {
+  font-size: var(--font-size-error-item);
+  margin: 0 1.5rem;
+}
+
+.notfound-data {
+  font-size: var(--font-size-error-subtitle);
+  font-weight: var(--font-weight-medium);
+}
+
+.notfound-message {
+  font-size: var(--font-size-large);
+}
+
+.top-layer a button {
+  padding: 0 2rem;
+  border-radius: 1rem;
+  border: 0.2rem solid black;
+  font-size: var(--font-size-large);
+  background-color: white;
+}
+
+.top-layer a button:hover {
+  background-color: var(--button-hover-color);
+}
+
+.background-layer {
+  height: 90%;
+  opacity: 20%;
+  user-select: none;
+}
+
+.background-layer h1 {
+  color: var(--label-color);
+  font-size: var(--font-size-background-50);
+  font-weight: var(--font-weight-large);
+}

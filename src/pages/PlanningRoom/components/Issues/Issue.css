@@ -1,0 +1,32 @@
+.offcanvas-title {
+  font-size: var(--font-size-small);
+  font-weight: 700;
+}
+
+.offcanvas.canvas-issue {
+  padding: 1rem;
+  z-index: calc(1 + var(--firework-z-index));
+  --bs-offcanvas-width: var(--offcanvas-width);
+}
+
+.issues-report {
+  font-size: var(--font-size-extra-small);
+  color: var(--issue-report-color);
+}
+
+.off-canvas-close-btn {
+  background-color: transparent;
+  border-radius: 50%;
+  font-size: var(--font-size-large);
+  height: 4.5rem;
+  width: 4.5rem;
+  transition: 0.1s linear;
+}
+
+.off-canvas-close-btn:hover {
+  background-color: var(--card-background);
+}
+
+.issue-header {
+  position: relative;
+}

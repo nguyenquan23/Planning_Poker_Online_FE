@@ -1,0 +1,14 @@
+.room {
+  background-color: var(--room-background-color);
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+.room__container {
+  padding: 1rem 2rem 2rem;
+  gap: 2rem;
+}
+
+.room__container--offcanvas {
+  width: calc(100% - var(--offcanvas-width));
+}

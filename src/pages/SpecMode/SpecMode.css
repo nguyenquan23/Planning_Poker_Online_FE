@@ -1,0 +1,24 @@
+.item-spec-mode {
+  cursor: pointer;
+  font-size: var(--font-size-small);
+  padding: 0.7rem 1rem;
+}
+
+.item-spec-mode:hover {
+  background-color: var(--background-color);
+}
+
+.spec-mode-container i {
+  color: var(--dropdown-icon-color);
+  margin-right: 0.9rem;
+}
+
+.spec-mode-container .spec-mode-label {
+  white-space: nowrap;
+}
+
+.form-check-input.switch-input:checked {
+  cursor: pointer;
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}

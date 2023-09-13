@@ -1,0 +1,15 @@
+.modal-change-game-name .modal-title {
+  font-size: var(--font-size-modal-title);
+}
+
+.form-floating .form-control.input-edit-game-name {
+  height: 5rem;
+  font-size: var(--font-size-medium);
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+
+.form-floating .label-game-name {
+  font-size: var(--font-size-small);
+  font-weight: var(--font-weight-small);
+}
